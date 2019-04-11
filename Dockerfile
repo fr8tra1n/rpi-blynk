@@ -1,5 +1,5 @@
-FROM hypriot/rpi-java
-MAINTAINER Mathias Renner <mathias@hypriot.com>
+FROM openjdk:11-jre-slim-stretch
+MAINTAINER Florian Mauduit <f@lf.je>
 
 #############################################################
 #
