@@ -30,7 +30,7 @@ RUN apt-get update \
 && apt-get install -y curl 
 
 RUN mkdir -p /blynk
-RUN curl -L https://github.com/blynkkk/blynk-server/releases/download/v${BLYNK_SERVER_VERSION}/server-${BLYNK_SERVER_VERSION}-java8.jar > /blynk/server.jar
+RUN curl -L https://github.com/blynkkk/blynk-server/releases/download/v${BLYNK_SERVER_VERSION}/server-${BLYNK_SERVER_VERSION}.jar > /blynk/server.jar
 # Create data folder. To persist data, map a volume to /data
 
 RUN mkdir -p /data
